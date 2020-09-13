@@ -1,32 +1,61 @@
-body{
-  /* make all text courier with a backup of monospace, set margin and padding to 10px */
-  
+body {
+    font-family: "Lucida Grande", sans-serif;
+    color: #FFFFFF;
+    background: #000000;
 }
-h1{
-  /* make your headers #E60000 color and bold */
-  
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 2px #808080;
 }
 p{
-  /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
-  
+    font-size: 24px;
+    padding-top: 20px;
 }
-a{
-  /* make your links red, italics, and underlined */
-  
+img {
+    width: 525px;
+    margin: auto;
+    display: block;
 }
-a:hover{
-  /* make the background color of your link black and the text white when you hover over it */
-  
+div {
+    min-height: 150px;
+    /* will automatically be taller if needed */
+    padding: 25px 25px 25px 25px;
 }
-ul{
-  /* make bullet points red squares */
-  
+
+#red {
+    background: #FF0000;
+    text-align: right;
 }
-img{
-  /* make the image 300px wide and 220px high, 10px of padding, and a 3px dashed border in the color of your choice */
- 
+
+#blue {
+    background: #0000FF;
+    text-align: left;
 }
-footer{
-  /* style the footer so it has a black background and white text */
-  
+
+#yellow{ 
+    background: #FFFF00;
+    text-align: right;
+    color: #000000;
+    /* Header 2 and paragraph text is black
+    Header 2 drop shadow is #c7e2c7 with the same parameters as above */
+}
+#yellow h2{
+    text-shadow: 5px 5px 2px #c7e2c7;
+}
+
+#green {
+    background: #008000;
+    text-align: left;
+}
+
+footer p{
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
 }
